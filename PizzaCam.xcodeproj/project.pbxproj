@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B76E1641AAAD03100E8D106 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B76E1631AAAD03100E8D106 /* LaunchScreen.xib */; };
+		2BA854861AA963D9003A9E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFDBEC1AA953AD00937556 /* AppDelegate.swift */; };
 		2BFFDBED1AA953AD00937556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFDBEC1AA953AD00937556 /* AppDelegate.swift */; };
 		2BFFDBEF1AA953AD00937556 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFDBEE1AA953AD00937556 /* ViewController.swift */; };
 		2BFFDBF21AA953AD00937556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFDBF01AA953AD00937556 /* Main.storyboard */; };
 		2BFFDBF41AA953AD00937556 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFDBF31AA953AD00937556 /* Images.xcassets */; };
-		2BFFDBF71AA953AD00937556 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFDBF51AA953AD00937556 /* LaunchScreen.xib */; };
 		2BFFDC031AA953AD00937556 /* PizzaCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFFDC021AA953AD00937556 /* PizzaCamTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B76E1631AAAD03100E8D106 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		2BFFDBE71AA953AD00937556 /* PizzaCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFFDBEB1AA953AD00937556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BFFDBEC1AA953AD00937556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BFFDBEE1AA953AD00937556 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2BFFDBF11AA953AD00937556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BFFDBF31AA953AD00937556 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		2BFFDBF61AA953AD00937556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2BFFDBFC1AA953AD00937556 /* PizzaCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFFDC011AA953AD00937556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BFFDC021AA953AD00937556 /* PizzaCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaCamTests.swift; sourceTree = "<group>"; };
@@ -59,6 +60,7 @@
 		2BFFDBDE1AA953AD00937556 = {
 			isa = PBXGroup;
 			children = (
+				2B76E1631AAAD03100E8D106 /* LaunchScreen.xib */,
 				2BFFDBE91AA953AD00937556 /* PizzaCam */,
 				2BFFDBFF1AA953AD00937556 /* PizzaCamTests */,
 				2BFFDBE81AA953AD00937556 /* Products */,
@@ -81,7 +83,6 @@
 				2BFFDBEE1AA953AD00937556 /* ViewController.swift */,
 				2BFFDBF01AA953AD00937556 /* Main.storyboard */,
 				2BFFDBF31AA953AD00937556 /* Images.xcassets */,
-				2BFFDBF51AA953AD00937556 /* LaunchScreen.xib */,
 				2BFFDBEA1AA953AD00937556 /* Supporting Files */,
 			);
 			path = PizzaCam;
@@ -161,6 +162,7 @@
 				TargetAttributes = {
 					2BFFDBE61AA953AD00937556 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = LV353P3B9R;
 					};
 					2BFFDBFB1AA953AD00937556 = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -193,7 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BFFDBF21AA953AD00937556 /* Main.storyboard in Resources */,
-				2BFFDBF71AA953AD00937556 /* LaunchScreen.xib in Resources */,
+				2B76E1641AAAD03100E8D106 /* LaunchScreen.xib in Resources */,
 				2BFFDBF41AA953AD00937556 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +223,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA854861AA963D9003A9E97 /* AppDelegate.swift in Sources */,
 				2BFFDC031AA953AD00937556 /* PizzaCamTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,14 +245,6 @@
 				2BFFDBF11AA953AD00937556 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2BFFDBF51AA953AD00937556 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2BFFDBF61AA953AD00937556 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -338,9 +333,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PizzaCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -348,9 +346,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PizzaCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -407,6 +408,7 @@
 				2BFFDC081AA953AD00937556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2BFFDC091AA953AD00937556 /* Build configuration list for PBXNativeTarget "PizzaCamTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +417,7 @@
 				2BFFDC0B1AA953AD00937556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
