@@ -21,6 +21,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     }
     
     @IBAction func shootPhoto(sender: UIBarButtonItem) {
+        picker.allowsEditing = false
+        picker.sourceType = UIImagePickerControllerSourceType.Camera
+        picker.cameraCaptureMode = .Photo
+        presentViewController(picker, animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
